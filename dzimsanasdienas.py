@@ -115,7 +115,7 @@ while atbilde == "y":
     from datetime import datetime
 
 def is_today(date_to_check):
-    # Get the current date
+    # Iegūst pašreizējo datumu
     today = datetime.now().date()
 
     # Convert the input date string to a datetime object
